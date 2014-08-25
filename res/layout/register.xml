@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                tools:context=".main"
+
+                android:background="@drawable/a2">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="10dp"
+            >
+
+        <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:hint="Email"
+                android:textColorHint="#bbbbbb"
+                />
+        <EditText
+                android:id="@+id/etUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-2dp"
+                android:padding="10dp"
+                android:hint="First Name"
+                android:textColorHint="#bbbbbb"
+             />
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/txtLastName"
+                  android:hint="Last Name"
+                  android:textColorHint="#bbbbbb"
+                  android:padding="10dp"
+                  android:layout_marginTop="-2dp"
+                />
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/txtCell"
+                  android:hint="Cell Number"
+                  android:padding="10dp"
+                  android:layout_marginTop="-2dp"
+                  android:textColorHint="#bbbbbb"
+                />
+        <EditText
+                android:id="@+id/etPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-2dp"
+                android:padding="10dp"
+                android:hint="Password"
+                android:textColorHint="#bbbbbb"
+                android:password="true"
+                />
+        <Button
+                android:id="@+id/btnSingIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_margin="4dp"
+                android:text="Sign Up"
+                style="@style/DefaultButtonText"
+                android:background="@drawable/button_default_bg"
+                />
+        <Button
+                android:id="@+id/btnback2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_margin="4dp"
+                android:text="Cancel"
+                style="@style/DefaultButtonText"
+                android:background="@drawable/button_default_bg"
+                />
+    </LinearLayout>
+
+</RelativeLayout>

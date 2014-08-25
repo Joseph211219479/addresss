@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".address"
+    android:background="@drawable/a2"
+
+
+
+        >
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                    android:orientation="vertical"
+            android:layout_centerInParent="true"
+            android:padding="10dp"
+            >
+
+
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/txt_Street_name"
+                  android:padding="10dp"
+                  android:hint="Street Name"
+                  android:textColorHint="#bbbbbb"
+                />
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/txt_street_number"
+                  android:padding="10dp"
+                  android:hint="House Number"
+                  android:textColorHint="#bbbbbb"
+                />
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/txt_town"
+                  android:padding="10dp"
+                  android:hint="Town/District"
+                  android:textColorHint="#bbbbbb"
+                />
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/txt_street_code"
+                  android:padding="10dp"
+                  android:hint="Postel Code"
+                  android:textColorHint="#bbbbbb"/>
+
+        <Button
+                android:id="@+id/btnSaveAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_margin="4dp"
+                android:text="Save Address"
+                style="@style/DefaultButtonText"
+                />
+        <Button
+                android:id="@+id/btnUpdateAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_margin="4dp"
+                android:text="Update Address"
+                style="@style/DefaultButtonText"
+                />
+
+
+    </LinearLayout>
+</RelativeLayout>
